@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Perpustakaan kita</title>
+</head>
+<body id="home">
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #80caff;">
+        <div class="container">
+          <a class="navbar-brand ms-5" href="#">Perpustakaan Kita</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tentang">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#layanan">Layanan Kami</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Librarian
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="petugas/login_petugas.php">Login</a></li>
+                  <li><a class="dropdown-item" href="petugas/registrasi_petugas.php">Registrasi</a></li>
+                 </ul>
+                </li>
+            </ul>
+              <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Book Lovers
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="user/login_user.php">Login</a></li>
+                  <li><a class="dropdown-item" href="user/registrasi_user.php">Registrasi</a></li>
+                </ul>   
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- Navbar End -->
+
+<!-- Image bg -->
+ <section class="jumbotron text-center">
+  <h1 class="text-shadow display-4 text-light fw-bold">Perpustakaan kita</h1>
+  <p class="text-shadow lead fw-bold">Tempat membaca buku yang kekinian dengan nuansa klasik</p>
+</section>
+ 
+ <!-- Image bg End -->
+
+
+ <!-- Grid -->
+ <section class="layanan" id="tentang">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col mt-5 pt-5">
+        <h2>Perpustakaan kita</h2>
+        <p class="h6 pt-3">Selamat datang di "Perpustakaan Kita," surga bagi para pecinta buku dan anak muda yang haus akan ilmu. 
+          Dengan desain interior yang modern, area baca yang luas, dan koleksi buku yang selalu diperbarui, 
+          perpustakaan ini menjadi tempat yang ideal untuk menyalurkan passion dalam membaca. 
+          Ditambah dengan suasana yang tenang, Anda akan menemukan kenyamanan maksimal untuk fokus dan produktivitas.
+     </p>
+      </div>
+      <div>
+       
+        
+        <section class="pt-4 mt-5 mb-4">
+          <div class="container">
+      
+          <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+              
+          <h2 class="text-bold text-center">Peraturan peminjaman buku</h2>
+      <table class="table table-light border-primary text-center">
+        <tbody>
+          <tr class="mt-2">
+          <td>
+          <strong>1. Jam Operasional Perpustakaan</strong>
+              <br>-Buka: 08.00 pagi
+              <br>-Tutup: 22.00 malam
+      </td>
+          </tr>
+          
+          <tr class="mt-2">
+          <td>
+          <strong>2. Pengembalian Buku</strong>
+              <br>-Buku harus dikembalikan paling lambat pada tanggal yang telah ditentukan.
+              <br>-Buku yang dikembalikan melewati batas waktu akan dikenakan denda Rp1.000 per hari per buku.
+              <br>-Anggota yang memiliki denda lebih dari Rp100.000 tidak diizinkan meminjam buku sebelum melunasi denda tersebut.
+      </td>
+          </tr>
+          <tr>
+              <td>
+              <strong>3. Perawatan Buku</strong>
+              <br>-Anggota wajib menjaga buku yang dipinjam agar tetap dalam kondisi baik.
+              <br>-Buku yang rusak atau hilang harus diganti dengan buku serupa atau membayar biaya sesuai harga buku.
+              </td>
+          </tr>
+          <tr>
+              <td>
+              <strong>4. Tata Tertib di Perpustakaan</strong>
+                  <br>-Dilarang makan, minum, atau membuat keributan di dalam perpustakaan.
+                  <br>-Barang bawaan seperti tas dan jaket wajib dititipkan di tempat yang telah disediakan.
+                  <br>-Pengguna perpustakaan diminta menjaga kebersihan dan kerapihan.
+              </td>
+          </tr>
+          <tr>
+            <td>
+            <strong>5. Keanggotaan</strong>
+                  <br>-Hanya anggota perpustakaan yang dapat meminjam buku.
+                  <br>-Kartu anggota wajib ditunjukkan setiap kali melakukan peminjaman.
+                  <br>
+                  <strong>Peraturan ini dibuat untuk kenyamanan bersama dan berlaku efektif mulai [tanggal dibuat].
+                  Terima kasih atas kerja samanya!</strong>
+            </td>
+          </tr>
+        </tbody>
+        
+      </table>
+          </div>
+      </div>
+      </section>
+       
+ 
+     </div>
+    </div>
+    <div class="container" id="layanan">
+      <div class="row">
+        <h2 class="text-center mt-5 pt-5" >Layanan kami</h2>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="assets/bg-about.jpg" class="card-img-top" />
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="assets/bg-about2.jpg" class="card-img-top"/>
+          </div>
+        </div><div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="assets/bg-about3.jpg" class="card-img-top"/>
+          </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/bg-about4.jpg" class="card-img-top"/>
+            </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="assets/bg-about5.jpg" class="card-img-top"/>
+              </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <div class="card">
+                  <img src="assets/bg-about6.jpg" class="card-img-top"/>
+                </div>
+                </div>
+    </div>
+
+<section class="mt-5 pt-5">
+  <div class="row text-center">
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <a href="https://en.m.wikipedia.org/wiki/J._K._Rowling" class="mb-3 h5 text-decoration-none">
+        <img src="assets/rowling.jpg"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+      J. K. Rowling</a>
+      <h6 class="text-primary mb-3">Penulis buku Harry Potter.</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>"Jika kamu tidak suka membaca, kamu belum menemukan buku yang tepat." </p>
+      
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0">
+      <div class="d-flex justify-content-center mb-4">
+        <a href="https://en.m.wikipedia.org/wiki/Dr._Seuss" class="mb-3 h5 text-decoration-none">
+        <img src="assets/seuss.jpg"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+     Dr. Seuss</a>
+      <h6 class="text-primary mb-3">Penulis.</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>"Semakin banyak kamu membaca, semakin banyak hal yang akan kamu ketahui. Semakin banyak yang kamu pelajari, semakin banyak tempat yang akan kamu tuju."</p>
+        
+    </div>
+    <div class="col-md-4 mb-0">
+      <div class="d-flex justify-content-center mb-4">
+        <a href="https://en.m.wikipedia.org/wiki/Bill_Gates" class="mb-3 h5 text-decoration-none">
+        <img src="assets/gates.jpg"
+          class="rounded-circle shadow-1-strong" width="150" height="150" />
+      </div>
+     Bill Gates</a>
+      <h6 class="text-primary mb-3">Pendiri Microsoft.</h6>
+      <p class="px-xl-3">
+        <i class="fas fa-quote-left pe-2"></i>"Jika budaya anda tidak menyukai orang-orang kutu buku, anda berada pada masalah yang serius."
+      </p>
+    </div>
+  </div>
+</section>
+
+</section>
+  <!-- Akhir Grid -->
+      
+  <!-- Footer -->
+  <div class="container-fluid" style="background-color: #80caff;">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">@Aleef Andrian Susanto</p>
+  
+      <p class="col-md-4 mb-0 text-body-secondary">Lokasi Perpustakaan Kita : Example.Location.In.Indonesia</p>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#tentang" class="nav-link px-2 text-body-secondary">Tentang kami</a></li>
+        <li class="nav-item"><a href="#layanan" class="nav-link px-2 text-body-secondary">Layanan kami</a></li>
+      </ul>
+    </footer>
+  </div>
+   <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

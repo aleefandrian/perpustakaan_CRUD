@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    min-height: 200px;
+}
+.jumbotron { 
+    padding-top: 6rem;
+    background-image: url(assets/bg3.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -65px;
+    color: #eaeaea;
+}
+
+.layanan {
+   background-image: url(assets/blob-scene-haikei.svg);
+   background-size: cover;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px black;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.container-form {
+    width: 80%;
+    max-width: 600px;
+}
+
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rules {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
